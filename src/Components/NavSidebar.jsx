@@ -16,7 +16,7 @@ function NavSidebar() {
     const navigate=useNavigate()
     return (
         <div className='z-0'>
-            <div className='z-20 md:hidden w-[100%] h-[50px] flex flex-row justify-between px-2 py-2 text-2xl text-[#8e00fba6] bg-black'>
+            <div className='z-20 md:hidden w-[100%] h-[70px] flex flex-row justify-between px-2 py-4 text-2xl text-[#8e00fba6] bg-black'>
                 <div className='flex flex-row cursor-pointer' onClick={()=> navigate('/')}>
                     <img className='w-[50px] rounded-[50%] bg-white' src={logo} alt="" />
                 <h1 className='font-bold ml-2'>

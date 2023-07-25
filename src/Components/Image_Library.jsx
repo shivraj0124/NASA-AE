@@ -29,7 +29,7 @@ function Image_Library() {
     return (
         <div>
             <div className='md:absolute md:left-[300px] top-0 w-[100%] md:w-[80%] min-h-screen h-max bg-gradient-to-r from-[#3b0764] to-slate-950 flex flex-col  items-center  text-white '>
-                <form className='w-[100%] flex flex-row border-1 border-[#3b0764] justify-between text-white bg-black max-md:h-10 h-16 pr-2 sticky top-[-1px] z-20' onSubmit={handleSearchClick}>
+                <form className='w-[100%] flex flex-row border-1 border-[#3b0764] justify-between text-white bg-black max-md:h-12 h-16 pr-2 sticky top-[-1px] z-20' onSubmit={handleSearchClick}>
                     <div className='flex flex-row pl-10 w-[100%]'>
                         <li className='left-24 list-none flex items-center'>
                             <BiSearch size={23} />

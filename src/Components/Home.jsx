@@ -32,7 +32,7 @@ function Home() {
                           <div className='w-[100%] md:w-[300px] md:h-[400px] text-white p-4 bg-gradient-to-b from-[#3b0764] to-slate-950 rounded-md max-md:mt-5'>
                               <img className='w-[100%] h-[40%] rounded-md' src={img2} alt="" />
                               <div className='text-start mt-5 px-2 pb-1'>
-                                  <h1 className='text-xl font-semibold '>Atronomy Picture of the Day</h1>
+                                  <h1 className='text-xl font-semibold '>Astronomy Picture of the Day</h1>
                                   <p className='mt-4' >Each day new Image will appear along with the brief explanation written by professionals</p>
                               <button className='mt-4 text-center p-2 bg-gradient-to-t from-[#3b0764] to-slate-800 px-5 rounded-md' onClick={() => {
                                   navigate('/aPod')

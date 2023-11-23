@@ -16,7 +16,7 @@ function Home() {
                       <img className='max-md:w-[90%] md:w-[50%] lg:w-[30%] mt-5 rounded-md lg:top-6' src="https://images-assets.nasa.gov/video/NHQ_2019_0311%E2%80%A6on/NHQ_2019_0311_Go%20Forward%20to%20the%20Moon~thumb.jpg" alt="" />
                       <div className='mt-8'>
                           <h1 className='text-3xl font-bold'>About This App</h1>
-                          <p className='mt-4 px-4 xl:px-32 text-2xl text-gray-500'>This website contains data fetch from NASA APIs.It contains Image Library by NASA and Astronomy Picture of th Day.</p>
+                          <p className='mt-4 px-4 xl:px-32 text-2xl text-gray-500'>This website contains data fetch from NASA APIs.It contains Image Library by NASA and Astronomy Picture of the Day.</p>
                       </div>
                       <div className='mt-5 flex flex-col md:flex-row md:justify-between md:w-[100%] lg:w-[80%] xl:w-[60%]'>
                           <div className='w-[100%] md:w-[300px] md:h-[400px] text-white p-4 bg-gradient-to-b from-[#3b0764] to-slate-950 rounded-md '>
